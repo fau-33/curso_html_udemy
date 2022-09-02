@@ -1,3 +1,30 @@
-h1 {
-  color: red;
+/* GERAL */
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  margin: 0;
+}
+/* Barra de navegador */
+
+#navbar {
+  margin-top: 20px;
+}
+.nav-list {
+  padding-top: 0 25px;
+}
+.nav-list li {
+  display: inline-block;
+  list-style: none;
+  padding: 5px 15px;
+}
+.nav-list li a {
+  color: #5F6368;
+  text-decoration: none;
+}
+.nav-list li a:hover {
+  text-decoration: underline;
+}
+#social-bar {
+  text-align: right;
 }
