@@ -28,3 +28,50 @@ body {
 #social-bar {
   text-align: right;
 }
+/* Corpo do site */
+
+#body {
+  text-align: center;
+}
+
+#google-logo {
+  padding-top: 7%;
+  margin-bottom: 25px;
+}
+
+#input-box {
+  width: 43vw;
+  height: 60px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#search-input {
+  height: 48px;
+  border-radius: 24px;
+  width: 50%;
+  box-sizing: border-box;
+  font-size: 16px;
+  padding: 0 50px;
+  border: 1px solid #DFDFDF;
+  box-shadow: 0px 0px 5px #DDD;
+}
+
+#search-icon, #keywords-icon, #mic-icon {
+  position: absolute;
+  
+  font-size: 18px;
+}
+
+#search-icon {
+  left: 20px;
+}
+
+#keywords-icon {
+  right: 55px;
+}
+
+#mic-icon {
+  right: 20px;
+}
