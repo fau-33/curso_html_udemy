@@ -50,7 +50,7 @@ body {
 #search-input {
   height: 48px;
   border-radius: 24px;
-  width: 50%;
+  width: 100%;
   box-sizing: border-box;
   font-size: 16px;
   padding: 0 50px;
@@ -58,9 +58,9 @@ body {
   box-shadow: 0px 0px 5px #DDD;
 }
 
-#search-icon, #keywords-icon, #mic-icon {
+#search-icon, #keyboard-icon, #mic-icon {
   position: absolute;
-  
+  top: 15px;
   font-size: 18px;
 }
 
@@ -68,10 +68,27 @@ body {
   left: 20px;
 }
 
-#keywords-icon {
-  right: 55px;
+#keyboard-icon {
+  right: 55px
 }
 
 #mic-icon {
-  right: 20px;
+  right: 20px
+}
+
+#body input[type="submit"] {
+  background-color: #F2F2F2;
+  border: 1px solid #F2F2F2;
+  border-radius: 4px;
+  color: #5f6368;
+  height: 34px;
+  padding: 0 16px;
+  font-size: 14px;
+  margin: 15px 5px;
+  cursor: pointer;
+}
+
+#body input[type="submit"]:hover {
+  color: #333;
+  border-color: #333;
 }
